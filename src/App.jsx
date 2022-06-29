@@ -1,12 +1,16 @@
 
 import './App.css';
+import About from "./components/about"
 
 function App() {
   return (
+    <>
+    
+    
     <div className="App">
-    <h1>KFC Clone</h1>
-      
+      <About></About>
     </div>
+    </>
   );
 }
 
