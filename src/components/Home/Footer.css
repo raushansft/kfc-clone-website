@@ -1,0 +1,16 @@
+.ftr{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.text-aln-lft{
+    text-align: left;
+}
+.foot-container{
+    display: grid;
+    
+}
