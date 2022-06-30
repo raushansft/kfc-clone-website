@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-<link rel="stylesheet" href="./about.css" />
+import "../components/about.css"
 
 const About= () => {
 

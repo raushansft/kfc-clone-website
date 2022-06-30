@@ -1,5 +1,10 @@
+
 #firstdiv{
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 10px 150px 10px;
+    box-sizing: border-box;
 }
 #kfcrolediv{
     background-color: aqua;
