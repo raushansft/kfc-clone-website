@@ -1,11 +1,9 @@
-
 import './App.css';
-
+import Filterlist from "./components/Filterlist/Filterlist"
 function App() {
   return (
     <div className="App">
-    <h1>KFC Clone</h1>
-      
+        <Filterlist/>
     </div>
   );
 }

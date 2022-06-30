@@ -1,0 +1,10 @@
+.Filterlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.Filterlist > p{
+    margin-top: 0px;
+}
