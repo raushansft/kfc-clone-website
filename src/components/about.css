@@ -1,6 +1,263 @@
 #firstdiv{
-    background-color: aqua;
+    /* background-color: aqua; */
+    display: grid;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
 }
+#firstdiv div >h1{
+    /* margin: 50px; */
+    margin-left:0px ;
+/* max-width: 68rem; */
+    font-size: 6em;
+    text-align: left;
+    height: 200px;
+    /* padding: 3rem; */
+    color: #212024;
+    font-family: 'Roboto', sans-serif;
+}
+#firstdiv div >img{
+    margin-left:50px ;
+    width: 100%;
+}
+#secondabout{
+    background-color: #f9f6f5;
+}
+#secondabout >#about{
+    display: inline-block;
+    /* padding: 500px; */
+    margin-right: 800px;
+    width: 25%;
+    text-align: left;
+}
+#secondabout >#about > div{
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+}
+#secondabout >#about > div> h3{
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 1em;
+    text-align: left;
+    height: 10px;
+    color: #212024;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+#secondabout >#about > div> hr{
+    width: 60%;
+    height: 0px;
+}
+#secondabout >#about > p{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+#thridabout{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color:#e5012b;
+}
+#thridabout > #thridimage{
+    background-image: url("https://images.ctfassets.net/9tka4b3550oc/pUxlFVRTxLtL5kOkls4oR/79e616624a7269fa05b88538b8d5f305/herbs-badge.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+   /* z-index: -1; */
+}
+#thridabout> #thridimage> img{
+    width: 700px;
+    /* margin-right: 500px; */
+    justify-content: left;
+}
+#thridabout > #thridimage + div {
+    margin-top: 100px;
+}
+#thridabout > #thridimage + div > p{
+    font-size: 16px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+}
+#thridabout > #thridimage + div > h1{
+    /* font-size: 16px;  */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+}
+#thridabout > #thridimage + div > button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-right: 350px;
+    margin-left: 0px;
+    background-color: black;
+    border-radius: 50px;
+}
+#aboutfour{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+}
+#aboutfour >div> img{
+width:500px;
+    height: auto;
+}
+#aboutfour1 > h1{
+    /* margin-left:0px ; */
+    /* max-width: 68rem; */
+    font-size: 85px;
+    text-align: left;
+    /* height: 200px; */
+    /* padding: 3rem; */
+    color: #212024;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#aboutfour1 > div{
+    display: flex;
+    /* margin: 100px; */
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+}
+#aboutfour1 > div > h3{
+    margin-left: 0px;
+    /* margin-top: 100px; */
+    font-size: 18px;
+    text-align: left;
+    /* height: 10px; */
+    color: #212024;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+
+}
+#aboutfour1 > div > hr{
+    width: 60%;
+    height: 0px;
+    margin-top: 25px;
+}
+#aboutfour1 >  p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    text-align: left;
+}
+#aboutfive{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+}
+#aboutfive > div > img{
+    width: 700px;
+    height: auto;
+    margin-left: 20px;
+}
+#aboutfive>div>p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    text-align: left;
+}
+#uplastdiv{
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+}
+#uplastdiv > p{
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 1em;
+    text-align: left;
+    height: 10px;
+    color: #212024;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+#uplastdiv > hr{
+    width: 90%;
+    height: 0px;
+    margin-left: 30px;
+}
+#lastdiv{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 20px;
+}
+#finaldiv{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 20px;
+}
+#finaldiv > div>h1{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+#finaldiv > div>p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+#finaldiv > div> button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-right: 350px;
+    margin-left: 0px;
+    background-color: black;
+    border-radius: 50px;
+}
+#finaldiv > div> svg{
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    /* background-color: ; */
+}
+
+
+
+
+
+
 #kfcrolediv{
-    background-color: aqua;
+    background-color:#f9f6f5;
 }
