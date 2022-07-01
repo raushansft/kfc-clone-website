@@ -97,6 +97,7 @@ export default function Home() {
 
    
       <Navbar />
+      <img src={below_navbar} alt="img" />
       <h1>
         FEATURED ITEM
       </h1>
@@ -153,7 +154,7 @@ export default function Home() {
         ))}
       </div>
 
-      <img src={below_navbar} alt="img" />
+     
       <img src={slide_img} alt="img" />
       <img src={slide_img1} alt="img" />
 
