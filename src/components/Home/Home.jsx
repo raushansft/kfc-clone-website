@@ -98,27 +98,28 @@ export default function Home() {
    
       <Navbar />
       <img src={below_navbar} alt="img" />
-      <h1>
+      <h1 className='title'>
         FEATURED ITEM
       </h1>
 
-      <div>
+      <div className="item-container">
         {featuresItem.map(({id,img,text1,text2,text3}) => (
           
-            <div key={id} className="item-container">
-              <div className='container'>
+            <div key={id} >
+           <div className="container">
             <img className='item-img' src={img} alt="img" />
-            <div>
+            <div className='text-container'>
             <p className='txt1'>{text1}</p>
             <p className='txt2'>{text2}</p>
             <p className='txt3'>{text3}</p>
             </div>
-          </div>
+            </div>
+          
           </div>
         ))}
       </div>
 
-      <h1>Favorite Item</h1>
+      <h1 className='title'>Favorite Item</h1>
 
       <div>
         {favoriteItem.map(({id,img,text1,text2,text3}) => (
@@ -136,7 +137,7 @@ export default function Home() {
         ))}
       </div>
 
-      <h1>Quick Bite</h1>
+      <h1 className='title'>Quick Bite</h1>
 
       <div>
         {quickBite.map(({id,img,text1,text2,text3}) => (

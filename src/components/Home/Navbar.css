@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    border: 2px solid red;
+   
     justify-content: space-between;
     margin: auto;
 }
 .ulList{
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+  
     justify-content: space-between;
+    align-items: center;
 }
 .ulList > li {
     list-style: none;
@@ -19,4 +20,18 @@
 .ulList > li > a{
     text-decoration: none;
     color: #202124;
+}
+
+.order_button{
+    padding:15px ;
+    font-size: 15px;
+    background-color: rgb(99, 13, 13);
+    color: white;
+    border-radius: 35px;
+    width: 140px;
+    text-align: center;
+}
+
+.nav-font{
+    font-weight: bold;
 }
