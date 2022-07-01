@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from "./components/about"
+import Careers from './components/carreers';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     
     <div className="App">
       <About></About>
+      {/* <Careers></Careers> */}
     </div>
     </>
   );

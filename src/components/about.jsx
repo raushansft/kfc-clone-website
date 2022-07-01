@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import "./about.css"
-<link rel="stylesheet" href="./about.css" />
+{/* <link rel="stylesheet" href="./about.css" /> */}
 
 const About = () => {
 
