@@ -22,3 +22,28 @@
     background-color: black;
     color: white;
 }
+
+
+
+
+.footer_image2{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+   
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid red;
+    background-color: gray;
+}
+
+.item-img{
+    width: 100px;
+}

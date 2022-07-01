@@ -27,7 +27,7 @@
 
     {
       "id": 4,
-      "img": "img",
+      "img": "/.com",
       "text1": "typicode",
       "text2": "typicode",
       "text3": "set location for pricing."
@@ -45,14 +45,64 @@
       "text2": "typicode",
       "text3": "set location for pricing."
     }
+    ,
+
+    {
+      "id": 2,
+      "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
+      "text1": "Sides Lovers 8 pc Tenders Meal",
+      "text2": "calories : 2850-4330",
+      "text3": "set location for pricing."
+    },
+
+    {
+      "id": 3,
+      "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
+      "text1": "Sides Lovers 8 pc Tenders Meal",
+      "text2": "calories : 2850-4330",
+      "text3": "set location for pricing."
+    },
+
+    {
+      "id": 4,
+      "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
+      "text1": "Sides Lovers 8 pc Tenders Meal",
+      "text2": "calories : 2850-4330",
+      "text3": "set location for pricing."
+    }
   ],
 
 
   "quickBites": [{
     "id": 1,
-    "img": "img",
-    "text1": "Biscuit",
-    "text2": "calories : 180",
+    "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-JackHarlowMeal?q=75&w=1280",
+    "text1": "Jack Harlow's Meal",
+    "text2": "calories : 1350",
+    "text3": "set location for pricing"
+  },
+
+  {
+    "id": 2,
+    "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75&w=1280",
+    "text1": "Sides Lovers 8 pc. Chiken Meal",
+    "text2": "calories : 2580-5640",
+    "text3": "set location for pricing."
+  },
+
+  {
+    "id": 3,
+    "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
+    "text1": "Sides Lovers 8 pc Tenders Meal",
+    "text2": "calories : 2850-4330",
+    "text3": "set location for pricing."
+  },
+
+
+  {
+    "id": 4,
+    "img": "/.com",
+    "text1": "typicode",
+    "text2": "typicode",
     "text3": "set location for pricing."
   }
 
