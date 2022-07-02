@@ -1,10 +1,11 @@
 import React from 'react'
+import footer_img from '../home_asset/footer_img.JPG'
+import './Footer.css'
 
-export default function Footer() {
+function Footer() {
   return (
-    <>
-    <h1>Footer Page</h1>
-      
-    </>
+    <img className='footer_imgage' src={footer_img} alt="img" />
   )
 }
+
+export default Footer

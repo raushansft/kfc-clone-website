@@ -1,0 +1,52 @@
+.left_nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin: auto;
+}
+.ulList{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+}
+.ulList > li {
+    list-style: none;
+    padding: 10px;
+}
+.ulList > li > a{
+    font-size: 1rem;
+    text-decoration: none;
+font-weight: bold;
+    color: #202124;
+}
+.ulList > li > button{
+    color: #202124;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: #e5012b;
+    text-decoration: none;
+}
+.ulList > li > div{
+    color: #202124;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.ulList > li > svg{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+}

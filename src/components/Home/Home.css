@@ -1,0 +1,76 @@
+
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.section-3{
+    background-image: url("https://mma.prnewswire.com/media/1843472/KFC_Finger_Sporks.jpg");
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.section-4{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.footer_image2{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.itemcont{
+    /* margin-top: 50px; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.itemcont>hr{
+    /* margin-top: 50px; */
+    width: 90%;
+    background-color: black;
+    height: 1px;
+    /* margin: auto; */
+    /* ma/rgin-bottom: 30px; */
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr; */
+    /* border: 1px solid red; */
+    /* background-color: gray; */
+}
+
+.item-img{
+    width: 350px;
+    margin: auto;
+    background-color: #f9f6f5;
+    height:auto;
+}
+.item-text>p{
+    text-align: center;
+    font-size: 1rem;
+}
+.featcont{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3,1fr);
+}
