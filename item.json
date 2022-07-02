@@ -22,30 +22,24 @@
       "text1": "Sides Lovers 8 pc Tenders Meal",
       "text2": "calories : 2850-4330",
       "text3": "set location for pricing."
-    },
-
-
-    {
-      "id": 4,
-      "img": "/.com",
-      "text1": "typicode",
-      "text2": "typicode",
-      "text3": "set location for pricing."
     }
+
+
 
     
   ],
 
 
   "favorites": [
+    
+
     {
       "id": 1,
-      "img": "img",
-      "text1": "typicode",
-      "text2": "typicode",
+      "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
+      "text1": "Sides Lovers 8 pc Tenders Meal",
+      "text2": "calories : 2850-4330",
       "text3": "set location for pricing."
-    }
-    ,
+    },
 
     {
       "id": 2,
@@ -57,14 +51,6 @@
 
     {
       "id": 3,
-      "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
-      "text1": "Sides Lovers 8 pc Tenders Meal",
-      "text2": "calories : 2850-4330",
-      "text3": "set location for pricing."
-    },
-
-    {
-      "id": 4,
       "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
       "text1": "Sides Lovers 8 pc Tenders Meal",
       "text2": "calories : 2850-4330",
@@ -94,15 +80,6 @@
     "img": "https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloverstendersmeal?q=75&w=1280",
     "text1": "Sides Lovers 8 pc Tenders Meal",
     "text2": "calories : 2850-4330",
-    "text3": "set location for pricing."
-  },
-
-
-  {
-    "id": 4,
-    "img": "/.com",
-    "text1": "typicode",
-    "text2": "typicode",
     "text3": "set location for pricing."
   }
 

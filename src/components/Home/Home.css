@@ -36,14 +36,41 @@
 
    
 }
+.itemcont{
+    /* margin-top: 50px; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.itemcont>hr{
+    /* margin-top: 50px; */
+    width: 90%;
+    background-color: black;
+    height: 1px;
+    /* margin: auto; */
+    /* ma/rgin-bottom: 30px; */
+}
 
 .item-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border: 1px solid red;
-    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr; */
+    /* border: 1px solid red; */
+    /* background-color: gray; */
 }
 
 .item-img{
-    width: 100px;
+    width: 350px;
+    margin: auto;
+    background-color: #f9f6f5;
+    height:auto;
+}
+.item-text>p{
+    text-align: center;
+    font-size: 1rem;
+}
+.featcont{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3,1fr);
 }
