@@ -10,14 +10,20 @@
     justify-content: left;
     margin-left: 40px;
     margin-top: 50px;
-    width: 30%;
+    /* width: 30%; */
     /* border: 2px solid red; */
-    padding-left: 500px;
+    padding-left: 5px;
     margin-top: 200px;
 }
 .Filterlist > p{
     margin-top: 0px;
     font-size: 20px;
+}
+.Filterlist > p>a{
+    color: black;
+    text-decoration: none;
+    /* margin-top: 0px; */
+    /* font-size: 20px; */
 }
 
 .product_container{
