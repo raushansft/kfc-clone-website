@@ -4,7 +4,12 @@
     justify-content: left;
     margin-left: 40px;
     margin-top: 50px;
+    width: 10%;
+    border: 2px solid red;
+    padding-left: 500px;
+    margin-top: 50px;
 }
 .Filterlist > p{
     margin-top: 0px;
+    font-size: 20px;
 }

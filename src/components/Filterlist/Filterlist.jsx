@@ -3,8 +3,8 @@ import './Filterlist.css'
 
 const Filterlist = () => {
   return (
-    <>
-    <div class="Filterlist">
+    <div>
+    <div className="Filterlist">
     <h1>KFC® MENU</h1>
     <p>Jack Harlow's Meal</p>
     <p>Featured</p>
@@ -18,8 +18,7 @@ const Filterlist = () => {
     <p>Sauces</p>
     <p></p>
     </div>
- 
-    </>
+    </div>
 
   )
 }
