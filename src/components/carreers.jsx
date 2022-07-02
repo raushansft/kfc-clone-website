@@ -1,11 +1,16 @@
 import NavbarCareers from "./Navbar-careers";
+import "./carreers.css"
 const Careers=() => {
 return (
     <>
-    <div><img src="https://images.ctfassets.net/9tka4b3550oc/5tRiGfQXCdlrlRXDVPWdYT/79fca81cf69dad4129d7f6c0e9c873f9/hero-careers.jpg?w=1680" alt="" /></div>
+    <div id="subnavimg"> 
+    <h1>Hello</h1>
+    </div>
     <NavbarCareers></NavbarCareers>
     <div>
-        <h1>BROWSE KFC OPPORTUNITIES IN YOUR AREA:</h1>
+    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43204.24147289531!2d-122.18951511415288!3d47.406770267870186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905dd3f2a4b083%3A0x5c3eb2aac94524fc!2sEast%20Hill-Meridian%2C%20WA%2C%20USA!5e0!3m2!1sen!2sin!4v1656729779533!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+    {/* <iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe> */}
+        <h1 id="helo">BROWSE KFC OPPORTUNITIES IN YOUR AREA:</h1>
         <form>
             <select name="" id="">
                 <option value="none">All Positions</option>
@@ -88,7 +93,7 @@ return (
         <p>David Gibbs, CEO of Yum! Brands.</p>
     </div>
     <div>
-        <img src="https://images.ctfassets.net/9tka4b3550oc/51fyOnDnrgeXWqP1B2Zsih/7d9b6da24b0c8ba9e84fcb2342539bda/banner-card-corporate-careers.jpg?q=75&w=1680" alt="" />
+        <img src="https://images.ctfassets.net/9tka4b3550oc/51fyOnDnrgeXWqP1B2Zsih/7d9b6da24b0c8ba9e84fcb2342539bda/banner-card-corporate-careers.jpg?q=75&w=1680" style={{width:"100%"}} alt="" />
         <p>References to minimum age requirements are not applicable in any state where state or local law would prohibit a minimum age. Applicants must be able to lawfully perform all job tasks related to the role during all restaurant operating hours.</p>
     </div>
     <div>

@@ -1,0 +1,26 @@
+#navcareer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly   ;
+    background-color: #212024   ;
+}
+#navcareer > div h4{
+   color: white;
+   font-family: "Roboto", sans-serif;
+}
+#navcareer > #subnav{ 
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+#navcareer > div >a{
+    text-align: center;
+   color: white;
+   font-family: "Roboto", sans-serif;
+   text-decoration:  none;
+   cursor: pointer;
+   align-self: center;
+   margin: 10px;
+   /* align-items: space-around; */
+}

@@ -3,9 +3,6 @@ import styled from "styled-components"
 import "./about.css"
 {/* <link rel="stylesheet" href="./about.css" /> */}
 
-const About = () => {
-
-    return (
         <>
             <div id="firstdiv">
                 <div><h1>IF YOU LIKE FRIED CHICKEN, THIS IS WAY</h1></div>
@@ -83,8 +80,8 @@ const About = () => {
                 </div>
             </div>
         </>
-    )
-}
+    
+
 
 
 export default About
