@@ -11,6 +11,7 @@
     flex-direction: row;
     /* border: 2px solid red; */
     justify-content: space-between;
+    align-items: center;
 }
 .ulList > li {
     list-style: none;

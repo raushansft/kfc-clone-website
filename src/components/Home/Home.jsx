@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { BrowserRouter as Router ,Routes,Route,Link } from 'react-router-dom';
 import "./Home.css";
 import Footer from "./Footer";
 import footer_img1 from '../home_asset/footer_img1.JPG'
@@ -182,7 +182,7 @@ export default function Home() {
 
       <img className="footer_image2" src={footer_img2} alt="img"  style={{width:"100%", margin:"auto"}}/>
       {/* <img className="footer_image3" src={footer_img1} alt="img" /> */}
-      {/* <Footer className="footer" /> */}
+      <Footer className="footer" />
     </>
   )
 }
