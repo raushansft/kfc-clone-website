@@ -1,13 +1,21 @@
 
-import './App.css';
+import SignUp from './Component/SignUp'
+import Login from './Component/Login'
+import FindKFC from './Component/FindKFC/FindKFC'
+  
+ 
+  
 
 function App() {
   return (
-    <div className="App">
-    <h1>KFC Clone</h1>
-      
-    </div>
-  );
+    <>
+    {/* <SignUp />
+    <Login /> */}
+    < FindKFC/>
+    </>
+  )
+     
+  
 }
 
 export default App;
